@@ -1,0 +1,292 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #f5f5f5;
+  max-width: 100%;
+}
+
+#hero {
+  font-size: 7rem;
+}
+
+#unnec {
+  font-size: 2.5rem;
+  display: flexbox;
+  margin-bottom: 40px;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d8b4e2;
+  height: 35px;
+  width: 100%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  max-width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
+.logo {
+  margin: 2px;
+  img{
+    height: 60px;
+  }
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+
+  a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: "lato";
+    font-weight: 400;
+  }
+
+  a:hover {
+    color: #999;
+  }
+}
+
+.list img {
+  height: 10px;
+  align-items: center;
+  padding-bottom: 3px;
+  padding-right: 10px;
+}
+
+.reg {
+  background-color: #ffcc00;
+  border: #ffcc00;
+  border-radius: 25px;
+  padding: 8px;
+  margin: 15px;
+  color: #333;
+}
+
+.reg:hover {
+  background-color: black;
+  color: white;
+  border: #ffcc00;
+  border-radius: 10px;
+  padding: 8px;
+  margin: 15px;
+  transition: 1.5s ease;
+}
+* {
+  margin: 0;
+  padding: 0;
+
+}
+body{
+    background-color: #cecece;
+}
+.main_container {
+  display: flex;
+  align-items: center;
+}
+.box1 {
+  background-color: #d8b4e2;
+  height: 1000px;
+  width: 1000px;
+  border-bottom-right-radius: 90px;
+  position: absolute;
+  left: -300px;
+}
+.box2 {
+  position: relative;
+  left: 502px;
+  bottom: 230px;
+  img {
+    width: 760px;
+    height: 750px;
+    z-index: 1;
+  }
+}
+.box3 {
+  background-color: #cecece;
+  padding: 40px;
+  height: 300px;
+  width: 350px;
+  position: relative;
+  left: 755px;
+  bottom: 230px;
+
+  p {
+    color: #c8a2c8;
+    font-family: "lato";
+    font-size: 26px;
+    line-height: 32.4px;
+  }
+}
+
+.notes {
+  position: absolute;
+  bottom: 120px;
+  padding: 20px;
+  padding-left: 45px;
+  margin: 20px;
+  width: 822px;
+  h1 {
+    font-size: 100px;
+    font-family: "Playfair Display SC";
+    font-weight: 400;
+    color: white;
+  }
+
+  img {
+    width: 100px;
+  }
+
+  p {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Lato";
+    color: white;
+  }
+
+  button {
+    background-color: #ffcc00;
+    border: #ffcc00;
+    border-radius: 25px;
+    padding: 8px;
+    margin: 15px;
+    color: #333;
+    font-family: 'lato';
+    font-weight: 400;
+    line-height: 18px;
+    font-size: 15px;
+  }
+
+  button:hover{
+    background-color: black;
+  color: white;
+  border: #ffcc00;
+  border-radius: 10px;
+  padding: 8px;
+  margin: 15px;
+  transition: 1.5s ease;
+  }
+}
+
+.stats {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  position: absolute;
+  bottom: 70px;
+  padding-left: 45px;
+}
+.stats .stat {
+  display: inline-block;
+  margin-top: 20px;
+  margin: 19px;
+  font-size: 24px;
+  color: #ffcc00;
+  max-width: 100%;
+}
+
+
+.section-title {
+  text-align: center;
+  align-items: center;
+  padding: 50px 20px;
+  color: #ffcc00;
+  background-color: #cecece;
+
+  h1 {
+    color: #c8a2c8;
+    font-size: 64px;
+    font-family: "Playfair Display SC";
+    font-weight: 400;
+  }
+}
+
+
+
+.section-title h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 40px;
+
+  color: #c8a2c8;
+  gap: 10px;
+
+  img {
+    height: 40px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.section-title p {
+  font-size: 24px;
+  line-height: 28.8px;
+  color: rgb(24, 23, 23);
+  width: 850px;
+  height: 28.8px;
+  font-weight: 400;
+  margin-left: 200px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+
+.events {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  background-color: #cecece;
+}
+
+.event {
+  background-color: #cecece;
+  color: white;
+  width: 45%;
+  margin: 10px;
+  position: relative;
+  border-radius: 30px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.event img {
+  width: 100%;
+  height: auto;
+}
+
+
+.footer {
+  background-color: #d8b4e2;
+  color: #333;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(3px);
+  z-index: 1;
+}
+
+
+
+.hidden {
+  display: none;
+}
+
+

@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+.container {
+    display: flex;
+    width: 76%;
+    max-width: 1200px;
+    background-color: #c0c0c0;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.left {
+    background-color: #c0c0c0;
+    flex: 1;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 20px;
+}
+.left img {
+    position: absolute;
+    left: 20px;
+    width: 100%;
+}
+.right {
+    flex: 1;
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.right h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    margin: 0;
+}
+.right h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+.right h3 {
+    font-size: 20px;
+    margin: 20px 0 10px;
+    font-weight: bold;
+}
+.right label {
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+.right input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #f5eaea;
+    font-size: 16px;
+}
+.right .password-container {
+    position: relative;
+}
+.right .password-container input {
+    padding-right: 40px;
+}
+.right .password-container .fa-eye {
+    position: absolute;
+    right: 15px;
+    top: 35%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.right .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right .footer a {
+    color: #f1c40f;
+    text-decoration: none;
+    font-weight: bold;
+}
+.right .footer .buttons {
+    display: flex;
+    gap: 10px;
+}
+.right .footer .buttons button {
+    background-color: #f1c40f;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    .left, .right {
+        flex: none;
+        width: 100%;
+    }
+    .right {
+        padding: 20px;
+    }
+}
